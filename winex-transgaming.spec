@@ -33,7 +33,7 @@ dla Microsoft Windows pod systemami unixowymi. Sk³ada siê on z
 loadera, który pozwala wczytywaæ i uruchamiaæ programy w formacie
 Microsoft Windows oraz z biblioteki, która implementuje API Windows
 przy u¿yciu odpowiedników Unixowych oraz z X11. Biblioteka mo¿e byæ
-tak¿e wykorzystana do przenoszenia aplikacji Win32 do Unixa.
+tak¿e wykorzystana do przenoszenia aplikacji Win32 na Uniksa.
 
 %description -l pt_BR
 O Wine é um programa que permite rodar programas MS-Windows no X11.
@@ -55,10 +55,14 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/winex3
-%dir %attr(755,root,root) %{_libdir}/transgaming_winex3
+%dir %{_libdir}/transgaming_winex3
 %{_libdir}/transgaming_winex3/update.reg
 %attr(755,root,root) %{_libdir}/transgaming_winex3/.transgaming
+%dir %{_libdir}/transgaming_winex3/winex
+%dir %{_libdir}/transgaming_winex3/winex/lib
 %attr(755,root,root) %{_libdir}/transgaming_winex3/winex/lib/*
+%dir %{_libdir}/transgaming_winex3/winex/bin
 %attr(755,root,root) %{_libdir}/transgaming_winex3/winex/bin/*
+%dir %{_libdir}/transgaming_winex3/winex/pthread_lib
 %attr(755,root,root) %{_libdir}/transgaming_winex3/winex/pthread_lib/*
 %doc usr/share/doc/winex3/*
