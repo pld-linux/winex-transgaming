@@ -5,7 +5,7 @@ Summary(pt_BR):	Executa programas Windows no Linux
 Name:		winex-transgaming
 Version:	3.3.2
 Release:	1
-License:	custom, non-distributable
+License:	Aladdin FPL and partially LGPL
 Group:		Applications/Emulators
 Source0:	winex3_%{version}-1.i386.tgz
 # NoSource0-md5: 925950091ac3ce9c9eb648a7d707a69d
