@@ -1,7 +1,7 @@
 Summary:	Program that lets you launch Win applications
-Summary(es):	Ejecuta programas Windows en Linux
-Summary(pl):	Program pozwalaj±cy uruchamiaæ aplikacje Windows
-Summary(pt_BR):	Executa programas Windows no Linux
+Summary(es.UTF-8):   Ejecuta programas Windows en Linux
+Summary(pl.UTF-8):   Program pozwalajÄ…cy uruchamiaÄ‡ aplikacje Windows
+Summary(pt_BR.UTF-8):   Executa programas Windows no Linux
 Name:		winex-transgaming
 Version:	3.3.2
 Release:	1
@@ -24,21 +24,21 @@ Windows binary, and a library that implements Windows API calls using
 their Unix or X11 equivalents. The library may also be used for
 porting Win32 code into native Unix executables.
 
-%description -l es
+%description -l es.UTF-8
 Ejecuta programas Windows en Linux.
 
-%description -l pl
-Wine jest programem dziêki któremu mo¿na uruchamiaæ programy napisane
-dla Microsoft Windows pod systemami uniksowymi. Sk³ada siê on z
-loadera, który pozwala wczytywaæ i uruchamiaæ programy w formacie
-Microsoft Windows oraz z biblioteki, która implementuje API Windows
-przy u¿yciu odpowiedników uniksowych oraz z X11. Biblioteka mo¿e byæ
-tak¿e wykorzystana do przenoszenia aplikacji Win32 na Uniksa.
+%description -l pl.UTF-8
+Wine jest programem dziÄ™ki ktÃ³remu moÅ¼na uruchamiaÄ‡ programy napisane
+dla Microsoft Windows pod systemami uniksowymi. SkÅ‚ada siÄ™ on z
+loadera, ktÃ³ry pozwala wczytywaÄ‡ i uruchamiaÄ‡ programy w formacie
+Microsoft Windows oraz z biblioteki, ktÃ³ra implementuje API Windows
+przy uÅ¼yciu odpowiednikÃ³w uniksowych oraz z X11. Biblioteka moÅ¼e byÄ‡
+takÅ¼e wykorzystana do przenoszenia aplikacji Win32 na Uniksa.
 
-%description -l pt_BR
-O Wine é um programa que permite rodar programas MS-Windows no X11.
+%description -l pt_BR.UTF-8
+O Wine Ã© um programa que permite rodar programas MS-Windows no X11.
 Ele consiste de um carregador de programa, que carrega e executa um
-binário MS-Windows, e de uma biblioteca de emulação que traduz as
+binÃ¡rio MS-Windows, e de uma biblioteca de emulaÃ§Ã£o que traduz as
 chamadas da API para as equivalentes Unix/X11.
 
 %prep
