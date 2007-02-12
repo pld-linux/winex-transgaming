@@ -1,7 +1,7 @@
 Summary:	Program that lets you launch Win applications
-Summary(es.UTF-8):   Ejecuta programas Windows en Linux
-Summary(pl.UTF-8):   Program pozwalający uruchamiać aplikacje Windows
-Summary(pt_BR.UTF-8):   Executa programas Windows no Linux
+Summary(es.UTF-8):	Ejecuta programas Windows en Linux
+Summary(pl.UTF-8):	Program pozwalający uruchamiać aplikacje Windows
+Summary(pt_BR.UTF-8):	Executa programas Windows no Linux
 Name:		winex-transgaming
 Version:	3.3.2
 Release:	1
